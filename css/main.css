@@ -1,0 +1,344 @@
+@font-face{
+    font-family: GothamBold;
+    src: url(../fonts/GothamBold.ttf);
+}
+@font-face{
+    font-family: Gothamlight;
+    src: url(../fonts/Gothamlight.ttf);
+}
+@font-face{
+    font-family: GothamBlack;
+    src: url(../fonts/Gotham-Black.otf);
+}
+@font-face{
+    font-family: GothamBlack;
+    src: url(../fonts/Gotham-Black.otf);
+}
+@font-face{
+    font-family: Gothambook;
+    src: url(../fonts/GothamBook.ttf);
+}
+@font-face{
+    font-family: Gothammedium;
+    src: url(../fonts/GothamMedium.ttf);
+}
+body{
+    width: 100%;
+    padding: 0% !important;
+}
+.body-background{
+    background-image: url("../img/bg.png");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.container-fluid > header > nav{
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    padding: 3% 3% 3%;
+    font-size: 12pt;
+}
+.navbar-brand{
+    background-image: url("../img/logo.png");
+    background-size: 60px;
+    width: 70px;
+    background-repeat: no-repeat;
+}
+.container-fluid > header > nav > .container-fluid > ul > li > a{
+    color: white;
+    font-family: Gothamlight;
+    font-weight: bold;
+}
+.container-fluid > header > nav > .container-fluid > ul > li > a:hover{
+    color: white;
+    font-family: Gothamlight;
+    font-weight: bold;
+}
+.log{
+    border: 1px solid #fff;
+    border-radius: 12px;
+    /* padding: 2px 0px 2px; */
+}
+.sign > a{
+    color: #ff00bf !important;
+}
+.sign{
+    border: 1px solid #ff00bf;
+    color: #ff00bf;
+    margin-left: .5em;
+    border-radius: 12px;
+    /* padding: 2px 0px 2px; */
+}
+.container-fluid{
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+}
+section > .bg > .top-right{
+    position: relative;
+    top: 130px;
+    /* z-index: 200; */
+    left: 60%;
+    width: 40%;
+    height: 50%;
+    background-color: #fff;
+    padding: 40px 0px 40px 40px;
+}
+section > .bg > .top-right > h1{
+    font-family: GothamBold;
+    font-weight: bold;
+    font-size: 4.5rem;
+    color: #352384;
+}
+section > .bg > .top-right > h6{
+    font-family: Gothamlight;
+    /* font-weight: bolder; */
+    font-size: 1.9rem;
+    color: #352384;
+}
+.top-right > .input-group > input{
+    width: 90%;
+    height: 50px;
+    font-family: gothambook;
+    font-weight: 150;
+    font-size: 12pt;
+    padding-top: 1.15rem;
+    padding-bottom: .25rem;
+    outline: none;
+    border-bottom: 1px solid #352384;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.input-group > .btn-default{
+    margin-top: 10px;
+    background-color: #ff00bf;
+    padding: 12px 20px ;
+    color: #fff;
+    font-family: gothammedium;
+    font-size: 12pt;
+    font-weight: 100;
+    border-color: none;
+    border-radius: 10px;
+}
+.input-group > .btn-default:hover{
+    background-color: #ff00bf;
+    padding: 12px 20px ;
+    color: #fff;
+    border-color: none;
+    border-radius: 10px;
+}
+.input-group > .btn-default2{
+    margin-top: 10px;
+    background-color: transparent;
+    padding: 12px 20px ;
+    color: grey;
+    text-decoration: underline;
+    font-family: gothamlight;
+    font-size: 12pt;
+    /* font-weight: 100; */
+    text-decoration: underline;
+    border: none;
+}
+.input-group > .btn-default2:hover{
+    color: #ff00bf;
+    text-decoration-color: #ff00bf;
+    text-decoration: underline;
+}
+.first-link > h6 > a:hover {
+    color: #b30086;
+    text-decoration: underline;
+}
+.first-link{
+    font-family: gothambook;
+    padding-top: 10px;
+}
+.first-link > h6 > a{
+    color: #ff00bf;
+    text-decoration: underline;
+    
+}
+.clear{
+    clear: both;
+}
+.container > .row > .col-md-6 > img{
+    width: 100%;
+    height: 100%;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.col-md-6 > .text {
+    color: #fff;
+    padding-left: 100px;
+}
+.col-md-6 > .text > h3{
+    font-family: gothammedium;
+    font-size: 23pt;
+}
+.col-md-6 > .text > h3:nth-child(2){
+    padding-top: 100px;
+}
+.col-md-6 > .text > p{
+    font-family: gothambook;
+    font-size: 12pt;
+}
+.second {
+    background: linear-gradient(#76278f,#2b1e66);
+    padding-top: 350px;
+}
+
+.row > .padd{
+    padding-top: 100px;
+    padding-right: 70px !important;
+}
+.padd > h5 > a{
+    color: #ff00bf;
+    font-family: gothammedium;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.row > .padd > h5 {
+    color: #333447;
+    font-family: gothammedium;
+    font-size: 12pt;
+    font-weight: bold;
+    
+}
+.row > .padd > p{
+    color: #333447;
+    font-family: gothamlight;
+    font-size: 14pt;
+    font-weight: 500;
+}
+.row > .padd > h1{
+    color: #333447;
+    font-family: gothambold;
+    font-size: 23pt;
+    padding-top: 0px;
+    /* font-weight: bold; */
+    ;
+}
+.row > .padd > h5 > a:hover {
+    color: #b30086;
+    text-decoration: underline;
+}
+.padd2 > img{
+    width: 100%;
+}
+.btn-default{
+    margin-top: 10px;
+    padding: 12px 20px ;
+    font-family: gothammedium;
+    font-size: 12pt;
+    /* font-weight: 100; */
+    /* border-color: none; */
+    border-radius: 10px;
+}
+.back {
+    background-color: #352384;
+    width: 100%;
+    height: 330px !important;
+    position: absolute;
+    
+    height: 400px;
+}
+.top-left{
+    position: relative;
+    /* height: 100%; */
+    width: 90%;
+    top: -50px;
+    bottom: 0px !important;
+    /* padding-bottom: -60px !important; */
+}
+section > .container > .row > .col-md-6 > h1{
+    font-family: GothamBold;
+    color: #fff;
+    font-weight: 100;
+    font-size: 17pt;
+    padding-top: 7%;
+}
+section > .container > .row > .col-md-6 > form > input::placeholder{
+    color: white;
+}
+section > .container > .row > .col-md-6 > form > input{
+    width: 250%;
+    height: 50px;
+    font-family: gothambook;
+    font-size: 12pt;
+    padding-bottom: .25rem;
+    border-bottom: 1px solid #fff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: transparent;
+    color: #fff;
+}
+section > .container > .row > .col-md-6 > form{
+    padding-bottom: 20px;
+}
+.form-link > a{
+    color: #ff00bf;
+    font-family: gothamlight;
+    font-size: 15pt;
+    padding-top: 20px;
+}
+.form-link > a:hover{
+    color: #b30086;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #333447;
+    /* height: 500px; */
+    width: 100%;
+    padding: 5%;
+    color: #fff !important;
+    list-style-type: none;
+    margin-top: -50px;
+}
+.pan2 > img{
+    width: 100%;
+    padding: 0% !important;
+    padding-top: 3% !important;
+
+}
+.panda > ul > li > h4 > a{
+    color: #fff;
+    font-family: gothammedium;
+    font-size: 10
+}
+.panda ul > li > a{
+    color: #fff;
+    font-family: gothamlight;
+    font-size: 11pt;
+    font-weight: 350;
+}
+.panda > ul {
+    color: #fff;
+    list-style-type: none;
+}
+hr{
+    width: 50%;
+}
+.icons{
+    text-align: center;
+    padding-top: 7%;
+
+}
+.icons > i{
+    padding: 7px 8px;
+    border: 1px solid #fff;
+    border-radius:50%;
+    
+}
+.last{
+    padding-top: 0%;
+    font-size: 1.6rem;
+}
+.last > a{
+    color: #fff;
+}
+.last > a:hover{
+    color: #b30086;
+}
